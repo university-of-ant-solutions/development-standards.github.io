@@ -1,0 +1,4 @@
+### Architecture
+* Micro service
+* Serverless
+*
