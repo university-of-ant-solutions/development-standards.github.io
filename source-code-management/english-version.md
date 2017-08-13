@@ -26,3 +26,23 @@ Before you start contribute to any project, your local git should be configured 
 
 - [started #TRACKER\_STORY\_ID]
 
+### Labels on git
+
+- wip (work in progress)
+
+- impl (implementations)
+
+- spec (specification)
+
+-
+
+### Protected branches
+
+Protected branches ensure that collaborators on your repository cannot make irrevocable changes to branches. These branches can also be protected by requiring pull requests to have at least one approved review before they can be merged.
+
+- Develop
+
+- Master
+
+
+
