@@ -4,11 +4,11 @@
 
 * [Source tree] (https://www.sourcetreeapp.com)
 
-* 
+*
 
 ### Git Configuration
 
-Before you start contribute to any project, your local git should should be configured with:
+Before you start contribute to any project, your local git should be configured with:
 
   - `git config user.email {your email}`
 
