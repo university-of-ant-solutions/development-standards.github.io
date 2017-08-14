@@ -120,20 +120,47 @@ $ git flow feature publish
 
 12. Squash all local commit into one
 
+Put `[finished story ID] {story title} {story URL}` at the first line of the commit comment (this finishes the story on Pivotal Tracker)
+
 ```
 $ git rebase -i HEAD~2
 pick d095cf5 implement application codes 1
 squash 36b1973 implement application codes 2
+
+[finished #150210040] 150210040-user-should-know-how-to-develop-a-feature https://www.pivotaltracker.com/story/show/150210040
 ```
 
-13. After finish the test, you should rebase your current branch with develop branch so that your branch is not far from develop branch.
+13. Push your local tests to feature branch.
+
+```
+$ git flow feature publish
+```
+
+14. After finish the test, you should rebase your current branch with develop branch so that your branch is not far from develop branch.
 
 ```
 $ git merge origin/develop
 ```
 
-14. Push your local tests to feature branch.
+15. Confirm CI and automated code review passed on the pull request - if failed, put the story status back to `Started` on Pivotal Tracker and go back to step 11
 
-```
-$ git flow feature publish
-```
+16. Remove `wip` label from the pull request
+
+17. Get 2 review approvals for the pull request
+  - If changes requested, put the story status back to `Started` on Pivotal Tracker, add `wip` label to the pull request, and go back to step 11
+
+18. Remove `impl` label from the pull request
+
+19. Add a comment containing `[delivered story ID]` to the pull request (this delivers the story on Pivotal Tracker when merged)
+
+20. Merge the pull request in "Squash and merge" mode
+  - This should deploy develop to staging automatically
+
+21. Check the story acceptance criteria on staging - if the story acceptance criteria is not satisfied:
+  1. Reject the story and with adding activity comment of the rejection reason on
+     Pivotal Tracker
+  1. Revert the pull request and create new pull request with adding `wip` and `impl` labels
+  1. Add an activity comment with a link to the new pull request to the story on Pivotal Tracker
+  1. Go back to step 14
+22. Accept the story on Pivotal Tracker
+23. Delete the branch
