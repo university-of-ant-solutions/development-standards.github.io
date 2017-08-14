@@ -46,16 +46,72 @@ Protected branches ensure that collaborators on your repository cannot make irre
 
 ### Development process
 
-![alt text](https://raw.githubusercontent.com/university-of-ant-solutions/development-standards/develop/source-code-management/pictures/feature-on-pivotal-checker.png"feature on pivotal checker")
+![alt text](https://raw.githubusercontent.com/university-of-ant-solutions/development-standards/develop/source-code-management/pictures/feature-on-pivotal-checker.png "feature on pivotal checker")
 
 1. Create a branch corresponds to the story from develop branch
+
   - Name as `{story ID}-{hyphen-delimited lowercase story title without punctuations}`
 
-  Eg:
-  > git flow feature start feature-3
-Switched to a new branch 'feature/feature-3'
+Example
 
+```
+$ git flow feature start 150210040-user-should-know-how-to-develop-a-feature
+```
 
+2. Create an empty commit on the branch
+  - Put `[started story ID] [skip ci] {story title} {story URL}` at the first line of the commit comment (this starts the story on Pivotal Tracker)
 
+Example
+
+```
+$ git commit --allow-empty -m "[started #150210040] [skip ci] 150210040-user-should-know-how-to-develop-a-feature https://www.pivotaltracker.com/story/show/150210040"
+```
+
+3. Push the commit
+
+Example
+
+```
+$ git flow feature publish
+```
+
+4. Create a pull request on the branch to the develop
+
+  - Title the same as the story title
+  - Add `wip` and `spec` labels
+  - Add a link to the story on Pivotal Tracker to the description
+
+5. Add an activity comment with a link to the pull request to the story on Pivotal Tracker
+
+6. Work on the branch for the story with local commits until ready for specification review
+
+  - Prepare application code skeletons based on the specifications
+
+  - Implement unit tests based on the skeletons Squash all local commit into one
+
+7. Squash all local commit into one
+
+```
+$ git rebase -i HEAD~2
+pick d095cf5 write skeletons test 1
+squash 36b1973 write skeletons test 2
+```
+
+8. After finish the test, you should rebase your current branch with develop branch so that your branch is not far from develop branch.
+
+```
+$ git merge origin/develop
+```
+
+9. Push your local tests to feature branch.
+
+```
+$ git flow feature publish
+```
+
+10. Remove `wip` label from the pull request
+
+  - Get 2 review approvals for the pull request
+  - If changes requested, add `wip` label to the pull request, and go back to step 6
 
 
