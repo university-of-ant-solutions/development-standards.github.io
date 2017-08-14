@@ -114,4 +114,26 @@ $ git flow feature publish
   - Get 2 review approvals for the pull request
   - If changes requested, add `wip` label to the pull request, and go back to step 6
 
+11. Work on the branch for the story with local commits until ready for implementation review
 
+  - Implement application codes based on the skeletons to pass all the tests
+
+12. Squash all local commit into one
+
+```
+$ git rebase -i HEAD~2
+pick d095cf5 implement application codes 1
+squash 36b1973 implement application codes 2
+```
+
+13. After finish the test, you should rebase your current branch with develop branch so that your branch is not far from develop branch.
+
+```
+$ git merge origin/develop
+```
+
+14. Push your local tests to feature branch.
+
+```
+$ git flow feature publish
+```
