@@ -2,9 +2,9 @@
 
 ## Templates
 
-- [Bug]()
+- [Bug](https://github.com/university-of-ant-solutions/development-standards/blob/develop/development-process/templates/bug.md)
 
-- [Story]()
+- [Story](https://github.com/university-of-ant-solutions/development-standards/blob/develop/development-process/templates/story.md)
 
 ## Pivotal Tracker
 
