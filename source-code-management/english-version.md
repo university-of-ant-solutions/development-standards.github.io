@@ -44,5 +44,18 @@ Protected branches ensure that collaborators on your repository cannot make irre
 
 - Master
 
+### Development process
+
+![alt text](https://raw.githubusercontent.com/university-of-ant-solutions/development-standards/develop/source-code-management/pictures/feature-on-pivotal-checker.png"feature on pivotal checker")
+
+1. Create a branch corresponds to the story from develop branch
+  - Name as `{story ID}-{hyphen-delimited lowercase story title without punctuations}`
+
+  Eg:
+  > git flow feature start feature-3
+Switched to a new branch 'feature/feature-3'
+
+
+
 
 
