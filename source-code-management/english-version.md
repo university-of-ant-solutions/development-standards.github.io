@@ -162,7 +162,7 @@ $ git merge origin/develop
      Pivotal Tracker
   - Revert the pull request and create new pull request with adding `wip` and `impl` labels
   - Add an activity comment with a link to the new pull request to the story on Pivotal Tracker
-  - Go back to step 14
+  - Go back to step 11
 
 22. Accept the story on Pivotal Tracker
 23. Delete the branch
