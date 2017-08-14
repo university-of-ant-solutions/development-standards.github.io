@@ -157,10 +157,12 @@ $ git merge origin/develop
   - This should deploy develop to staging automatically
 
 21. Check the story acceptance criteria on staging - if the story acceptance criteria is not satisfied:
-  1. Reject the story and with adding activity comment of the rejection reason on
+
+  - Reject the story and with adding activity comment of the rejection reason on
      Pivotal Tracker
-  1. Revert the pull request and create new pull request with adding `wip` and `impl` labels
-  1. Add an activity comment with a link to the new pull request to the story on Pivotal Tracker
-  1. Go back to step 14
+  - Revert the pull request and create new pull request with adding `wip` and `impl` labels
+  - Add an activity comment with a link to the new pull request to the story on Pivotal Tracker
+  - Go back to step 14
+
 22. Accept the story on Pivotal Tracker
 23. Delete the branch
