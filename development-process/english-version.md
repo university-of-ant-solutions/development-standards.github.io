@@ -44,4 +44,6 @@ Dev should done 1, 2 points/per day.
 
 - [Principles of Effective Story Writing: The Pivotal Labs Way](https://www.pivotaltracker.com/blog/principles-of-effective-story-writing-the-pivotal-labs-way/)
 
+### Data Driven Development
 
+Data Driven Development is a kind of software methodology where new features and updates to existing features are based on insights gathered from metrics and analytics on how the users interact with the system.
