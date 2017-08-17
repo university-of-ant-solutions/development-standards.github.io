@@ -49,3 +49,22 @@ Dev should done 1, 2 points/per day.
 Data Driven Development is a kind of software methodology where new features and updates to existing features are based on insights gathered from metrics and analytics on how the users interact with the system.
 
 [data driven development/lean programming](https://dev.to/topriddy/data-driven-developmentlean-programming)
+
+### A Day of Dev
+
+- 8AM BREAKFAST
+Grab a hot plate, some juice or coffee and hang out with other dev.
+
+- DAILY STANDUP
+Get a quick update on interesting events and a chance to ask others for help on a problem.
+
+- TEAM STANDUP
+Meet with your team to share what you worked on the day before, and what’s on tap for today.
+
+- ITERATION PLANNING MEETING
+Propose recommendations and plan to implement changes.
+
+- TEAM RETROSPECTIVE
+Every Friday, your team will meet over beer and wine to discuss what went well, what didn’t, and how to improve for next week.
+
+- PING PONG, BOXING
