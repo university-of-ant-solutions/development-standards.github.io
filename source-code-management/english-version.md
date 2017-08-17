@@ -28,11 +28,11 @@ Before you start contribute to any project, your local git should be configured 
 
 ### Labels on git
 
-- wip (work in progress)
+- wip (work in progress) (#428BCA)
 
-- impl (implementations)
+- impl (implementations) (#8E44AD)
 
-- spec (specification)
+- spec (specification) (#69D100)
 
 -
 
