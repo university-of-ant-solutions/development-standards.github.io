@@ -14,4 +14,16 @@ One sign you are testing too much is if your tests are slowing you down. If it s
 https://martinfowler.com/bliki/TestCoverage.html
 http://www.softwaretestingclass.com/test-coverage-in-software-testing/
 
+### Reporting
+
 ### What is TDD ?
+
+### Test Impact Analysis
+
+- [rise test impact analysis](https://martinfowler.com/articles/rise-test-impact-analysis.html)
+
+- [bazel](https://bazel.build/)
+
+- [buckbuild](https://buckbuild.com/about/showcase.html)
+
+- [pantsbuild](http://www.pantsbuild.org/python_readme.html)
