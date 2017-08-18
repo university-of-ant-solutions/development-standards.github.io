@@ -6,5 +6,7 @@
 
 * Serverless
   * https://github.com/serverless/serverless
+  * Naming convention
+    - https://serverless.com/framework/docs/providers/aws/guide/resources/
 
 * Monolithic
