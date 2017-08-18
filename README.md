@@ -1,10 +1,10 @@
 ## TODO
 
+- environments
+
 - scrum training
 
 - how to check time logged in pivotal checker ?
-
-- environments
 
 - TDD
 

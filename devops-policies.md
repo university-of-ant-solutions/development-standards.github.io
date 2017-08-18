@@ -15,6 +15,7 @@
 
 - Infrastructure components should be defined as code and able to be created automatically
   from scratch by the code
+- [InfrastructureAsCode](https://martinfowler.com/bliki/InfrastructureAsCode.html)
 
 ### Immutable Infrastructure
 

@@ -34,6 +34,8 @@ Before you start contribute to any project, your local git should be configured 
 
 - spec (specification) (#69D100)
 
+- review (review) (#5843AD)
+
 -
 
 ### Protected branches
@@ -109,10 +111,10 @@ $ git merge origin/develop
 $ git flow feature publish
 ```
 
-10. Remove `wip` label from the pull request
+10. Remove `wip` label from the pull request and add `review` label
 
   - Get 2 review approvals for the pull request
-  - If changes requested, add `wip` label to the pull request, and go back to step 6
+  - If changes requested, add `wip` label to the pull request and remove `review` label, and go back to step 6
 
 11. Work on the branch for the story with local commits until ready for implementation review
 
@@ -144,10 +146,10 @@ $ git merge origin/develop
 
 15. Confirm CI and automated code review passed on the pull request - if failed, put the story status back to `Started` on Pivotal Tracker and go back to step 11
 
-16. Remove `wip` label from the pull request
+16. Remove `wip` label from the pull request and add `review` label
 
 17. Get 2 review approvals for the pull request
-  - If changes requested, put the story status back to `Started` on Pivotal Tracker, add `wip` label to the pull request, and go back to step 11
+  - If changes requested, put the story status back to `Started` on Pivotal Tracker, add `wip` label to the pull request and remove `review` label, and go back to step 11
 
 18. Remove `impl` label from the pull request
 
