@@ -1,8 +1,22 @@
-dotfiles
-vimfiles
-test coverage
+## TODO
 
-Share api document
-- Apiary | Platform for API Design, Development & Documentation
+- scrum training
 
-monitoring system
+- how to check time logged in pivotal checker ?
+
+- environments
+
+- TDD
+
+- dotfiles
+
+- vimfiles
+
+- test coverage
+
+- Share api document
+  - Apiary | Platform for API Design, Development & Documentation
+
+- monitoring system
+
+- Web tools
