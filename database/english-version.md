@@ -19,6 +19,3 @@
 Links
 
 - http://blog.cloud66.com/5-tips-for-managing-database-servers-in-production/
-
-
-
