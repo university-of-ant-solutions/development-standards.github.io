@@ -1,8 +1,8 @@
 ### Source Code Management
 
-* [Gitflow] (https://github.com/nvie/gitflow)
+* [Gitflow](https://github.com/nvie/gitflow)
 
-* [Source tree] (https://www.sourcetreeapp.com)
+* [Source tree](https://www.sourcetreeapp.com)
 
 *
 
@@ -25,6 +25,10 @@ Before you start contribute to any project, your local git should be configured 
 - [ci skip]: Sometimes, I will want to push code, but I know it's not ready for a CI build yet.  I really don't like  polluting my commit messages with "tags" like `[ci skip]`, and it wouldn't be clear to which commit I should add this tag anyway. [https://gitlab.com/gitlab-org/gitlab-ce/issues/18667](https://gitlab.com/gitlab-org/gitlab-ce/issues/18667)
 
 - [started #TRACKER\_STORY\_ID]
+
+- [finished #TRACKER\_STORY\_ID]
+
+- [delivered #TRACKER\_STORY\_ID]
 
 ### Labels on git
 
@@ -102,7 +106,8 @@ squash 36b1973 write skeletons test 2
 8. After finish the test, you should rebase your current branch with develop branch so that your branch is not far from develop branch.
 
 ```
-$ git merge origin/develop
+$ git fetch origin
+$ git rebase origin/develop
 ```
 
 9. Push your local tests to feature branch.
@@ -138,10 +143,11 @@ squash 36b1973 implement application codes 2
 $ git flow feature publish
 ```
 
-14. After finish the test, you should rebase your current branch with develop branch so that your branch is not far from develop branch.
+14. After finish the implement, you should rebase your current branch with develop branch so that your branch is not far from develop branch.
 
 ```
-$ git merge origin/develop
+$ git fetch origin
+$ git rebase origin/develop
 ```
 
 15. Confirm CI and automated code review passed on the pull request - if failed, put the story status back to `Started` on Pivotal Tracker and go back to step 11
