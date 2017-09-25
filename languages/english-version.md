@@ -45,6 +45,7 @@
 ### Training Repo
 
 - [golang-training](https://github.com/university-of-ant-solutions/golang-training)
+-
 
 ## Bash
 

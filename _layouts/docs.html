@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css" />
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  .android-be-together-section {
+    position: relative;
+    height: 800px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url(https://getmdl.io/templates/android-dot-com/images/slide01.jpg) center 30% no-repeat;
+    background-size: cover;
+  }
+  .android-slogan {
+    font-size: 60px;
+    padding-top: 160px;
+  }
+  .logo-font {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1;
+    color: #767777;
+    font-weight: 500;
+  }
+  .android-sub-slogan {
+    font-size: 21px;
+    padding-top: 24px;
+  }
+  .android-create-character {
+    font-size: 21px;
+    padding-top: 400px;
+  }
+  ::selection {
+    background-color: #673AB7;
+    color: #fff;
+  }
+  </style>
+</head>
+<body class="colums">
+<div class="mdl-layout__container">
+
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer is-upgraded">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Development Standards</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title Menu</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link Menu</a>
+      <a class="mdl-navigation__link" href="">Link Menu</a>
+      <a class="mdl-navigation__link" href="">Link Menu</a>
+      <a class="mdl-navigation__link" href="">Link Menu</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+
+
+      <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">be kind. and work hard.</div>
+          <div class="logo-font android-sub-slogan">welcome to the team... be yourself. do your best. and learn together.</div>
+
+          <div class="logo-font android-create-character">
+            <a href=""><img src="images/andy.png"> create your android character</a>
+          </div>
+
+          <a href="#screens">
+            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
+              <i class="material-icons">expand_more</i>
+            <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button>
+          </a>
+        </div>
+
+        <!-- Accent-colored raised button with ripple -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  Button
+</button>
+<!-- Colored FAB button -->
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
+
+  <header>
+    {% if page.landing == true %}{% include global-header.html %}{% endif %} {% if page.landing != true %}{% include header.html %}{% endif %}
+  </header>
+
+    </div>
+  </main>
+</div>
+
+</div>
+</body>
+
+</html>

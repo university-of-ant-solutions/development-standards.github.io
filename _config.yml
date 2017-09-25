@@ -1,0 +1,180 @@
+name: Development Standards Documentation
+markdown: kramdown
+kramdown:
+  input: GFM
+  html_to_native: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+  toc_levels: 2..3
+incremental: true
+permalink: pretty
+safe: false
+lsi: false
+url: https://development-standards.particle4dev.com
+keep_files: ["v1.0"]
+
+collections:
+  samples:
+    output: true
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-relative-links
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: docs
+      defaultassignee: johndmulhausen
+      enginebranch: 1.13.x
+      toc_min: 2
+      toc_max: 3
+      tree: true
+  - scope:
+      path: "compose"
+    values:
+      assignee: "gbarr01"
+  - scope:
+      path: "cs-engine"
+    values:
+      assignee: "joaofnfernandes"
+  - scope:
+      path: "datacenter"
+    values:
+      assignee: "joaofnfernandes"
+  - scope:
+      path: "datacenter/ucp"
+    values:
+      assignee: "jimgalasyn"
+  - scope:
+      path: "docker-cloud"
+    values:
+      assignee: "londoncalling"
+  - scope:
+      path: "docker-for-mac"
+    values:
+      assignee: "gbarr01"
+  - scope:
+      path: "docker-for-windows"
+    values:
+      assignee: "gbarr01"
+  - scope:
+      path: "docker-hub"
+    values:
+      assignee: "johndmulhausen"
+  - scope:
+      path: "docker-store"
+    values:
+      assignee: "johndmulhausen"
+  - scope:
+      path: "engine"
+    values:
+      assignee: "mstanleyjones"
+      win_server_zip_url: "https://download.docker.com/components/engine/windows-server/17.06/docker-17.06.1-ee-2.zip"
+  - scope:
+      path: "kitematic"
+    values:
+      assignee: "gbarr01"
+  - scope:
+      path: "machine"
+    values:
+      assignee: "gbarr01"
+  - scope:
+      path: "notary"
+    values:
+      assignee: "johndmulhausen"
+  - scope:
+      path: "registry"
+    values:
+      assignee: "joaofnfernandes"
+  - scope:
+      path: "swarm"
+    values:
+      assignee: "mstanleyjones"
+  - scope:
+      path: "toolbox"
+    values:
+      assignee: "gbarr01"
+  - scope:
+      path: "datacenter"
+    values:
+      ucp_latest_image: "docker/ucp:2.2.3"
+      dtr_latest_image: "docker/dtr:2.3.3"
+  - scope:
+      path: "datacenter/dtr/2.3"
+    values:
+      dtr_org: "docker"
+      dtr_repo: "dtr"
+      dtr_version: "2.3.3"
+  - scope:
+      path: "datacenter/dtr/2.2"
+    values:
+      hide_from_sitemap: true
+      ucp_version: "2.1"
+      dtr_version: "2.2"
+      docker_image: "docker/dtr:2.2.8"
+  - scope:
+      path: "datacenter/dtr/2.1"
+    values:
+      hide_from_sitemap: true
+      ucp_version: "2.0"
+      dtr_version: "2.1"
+  - scope:
+      path: "datacenter/dtr/2.0"
+    values:
+      hide_from_sitemap: true
+      ucp_version: "1.1"
+      dtr_version: "2.0"
+  - scope:
+      path: "datacenter/ucp/2.2"
+    values:
+      ucp_org: "docker"
+      ucp_repo: "ucp"
+      ucp_version: "2.2.3"
+  - scope:
+      path: "datacenter/ucp/2.1"
+    values:
+      hide_from_sitemap: true
+      ucp_version: "2.1"
+      dtr_version: "2.2"
+      docker_image: "docker/ucp:2.1.5"
+  - scope:
+      path: "datacenter/ucp/2.0"
+    values:
+      hide_from_sitemap: true
+      ucp_version: "2.0"
+      dtr_version: "2.1"
+      docker_image: "docker/ucp:2.0.3"
+  - scope:
+      path: "datacenter/ucp/1.1"
+    values:
+      hide_from_sitemap: true
+      ucp_version: "1.1"
+      dtr_version: "2.0"
+  - scope:
+      path: "apidocs/v1.3.3"
+    values:
+      hide_from_sitemap: true
+  - scope:
+      path: "apidocs/v1.4.0"
+    values:
+      hide_from_sitemap: true
+  - scope:
+      path: "apidocs/v2.0.0"
+    values:
+      hide_from_sitemap: true
+  - scope:
+      path: "apidocs/v2.0.1"
+    values:
+      hide_from_sitemap: true
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
+  style:            :compressed

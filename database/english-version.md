@@ -28,9 +28,9 @@ The basic rule of optimization is to nerver assume - ALWAYS verify, using actual
 
 In mongodb we have some useful method to get database profiling
 
-- [cursor.explain](https://docs.mongodb.com/manual/reference/method/cursor.explain/#cursor-explain)
+  - [cursor.explain](https://docs.mongodb.com/manual/reference/method/cursor.explain/#cursor-explain)
 
-- [cmdoption-profile](https://docs.mongodb.com/manual/reference/program/mongod/#cmdoption-profile)
+  - [cmdoption-profile](https://docs.mongodb.com/manual/reference/program/mongod/#cmdoption-profile)
 
 * RULE 2: It's very important to profile using a relevant dataset. We should use data from production mod.
 
@@ -55,3 +55,23 @@ Many database keep most recently used data in RAM. If you have created indexes f
 * Caching (REDIS)
 * Latency: Choosing the correct datacenter
 Latency is the network transmission time from application to database. For application-to-database latency, it will be a round trip: to the database and from the database.
+
+### How to design database for system
+
+- What is difference between SQL and NOSQL database ?
+
+[Introduction to NoSQL • Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
+
+[nosql](https://martinfowler.com/nosql.html)
+
+[books nosql](https://martinfowler.com/books/nosql.html)
+
+[NoSQL Databases: An Overview](https://www.thoughtworks.com/insights/blog/nosql-databases-overview) (*)
+
+[Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html)
+
+
+### SQL vs NoSQL
+
+- Relational Model vs Aggregate Model
+
