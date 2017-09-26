@@ -35,13 +35,13 @@ defaults:
       toc_max: 3
       tree: true
   - scope:
-      path: "compose"
+      path: "architectures"
     values:
-      assignee: "gbarr01"
+      assignee: "particle4dev"
   - scope:
-      path: "cs-engine"
+      path: "database"
     values:
-      assignee: "joaofnfernandes"
+      assignee: "particle4dev"
   - scope:
       path: "datacenter"
     values:
