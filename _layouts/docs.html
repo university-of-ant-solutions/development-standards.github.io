@@ -6,37 +6,8 @@
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css" />
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link id="pagestyle" rel="stylesheet" href="/css/style.css">
   <style>
-  .android-be-together-section {
-    position: relative;
-    height: 800px;
-    width: auto;
-    background-color: #f3f3f3;
-    background: url(https://getmdl.io/templates/android-dot-com/images/slide01.jpg) center 30% no-repeat;
-    background-size: cover;
-  }
-  .android-slogan {
-    font-size: 60px;
-    padding-top: 160px;
-  }
-  .logo-font {
-    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-    line-height: 1;
-    color: #767777;
-    font-weight: 500;
-  }
-  .android-sub-slogan {
-    font-size: 21px;
-    padding-top: 24px;
-  }
-  .android-create-character {
-    font-size: 21px;
-    padding-top: 400px;
-  }
-  ::selection {
-    background-color: #673AB7;
-    color: #fff;
-  }
   </style>
 </head>
 <body class="colums">
@@ -52,49 +23,125 @@
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="/">Home</a>
+        <a class="mdl-navigation__link" href="">Source Code Management</a>
       </nav>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+        <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" id="search">
+          <label class="mdl-textfield__label" for="search">Enter your query...</label>
+        </div>
+      </div>
+      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+        <i class="material-icons">more_vert</i>
+      </button>
+      <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+        <li class="mdl-menu__item">Languages</li>
+        <li class="mdl-menu__item">Database</li>
+        <li class="mdl-menu__item">Scrum</li>
+      </ul>
     </div>
   </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title Menu</span>
+  <div class="android-drawer mdl-layout__drawer">
+    <span class="mdl-layout-title">
+      <h3 class="android-logo-image">
+        contents
+      </h3>
+    </span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link Menu</a>
-      <a class="mdl-navigation__link" href="">Link Menu</a>
-      <a class="mdl-navigation__link" href="">Link Menu</a>
-      <a class="mdl-navigation__link" href="">Link Menu</a>
+
+      <span class="mdl-navigation__link">Software architecture</span>
+      <a class="mdl-navigation__link" href="/architectures">Architectures</a>
+      <a class="mdl-navigation__link" href="">Microservices</a>
+      <a class="mdl-navigation__link" href="">Serverless</a>
+      <a class="mdl-navigation__link" href="">Monolithic</a>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link">Design language</span>
+      <a class="mdl-navigation__link" href="">UI Design</a>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link">Product Development Process</span>
+      <a class="mdl-navigation__link" href="">Scrum</a>
+      <a class="mdl-navigation__link" href="">Agile</a>
+      <a class="mdl-navigation__link" href="">Test driven development</a>
+      <a class="mdl-navigation__link" href="">Refactoring</a>
+      <a class="mdl-navigation__link" href="">Software inspections/Code reviews</a>
+      <a class="mdl-navigation__link" href="">Pair programming</a>
+      <a class="mdl-navigation__link" href="">Devops Policies</a>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link">Source Code Management</span>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link">Build tools</span>
+      <a class="mdl-navigation__link" href="">Webpack</a>
+
+      <div class="android-drawer-separator"></div>
+      <a href="/database"><span class="mdl-navigation__link">Database</span></a>
+      <a class="mdl-navigation__link" href="">Mongodb</a>
+      <a class="mdl-navigation__link" href="">Redis</a>
+      <a class="mdl-navigation__link" href="">Elasticsearch</a>
+      <a class="mdl-navigation__link" href="">Postgresql</a>
+      <a class="mdl-navigation__link" href="">InfluxDB</a>
+      <a class="mdl-navigation__link" href="">Cassandra</a>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link" href="">Languages</span>
+      <a class="mdl-navigation__link" href="">JS-Nodejs</a>
+      <a class="mdl-navigation__link" href="">Python</a>
+      <a class="mdl-navigation__link" href="">Golang</a>
+      <a class="mdl-navigation__link" href="">Bash</a>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link">Programming paradigm</span>
+      <a class="mdl-navigation__link" href="">Functional decomposition</a>
+      <a class="mdl-navigation__link" href="">Object-oriented programming</a>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link">Testing</span>
+      <a class="mdl-navigation__link" href="">Environments</a>
+      <a class="mdl-navigation__link" href="">software-testing ???</a>
+
+      <div class="android-drawer-separator"></div>
+      <a href=""><span class="mdl-navigation__link">Web servers</span></a>
+      <a class="mdl-navigation__link" href="">Nginx</a>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link">Others</span>
+      <a class="mdl-navigation__link" href="">API</a>
+      <a class="mdl-navigation__link" href="">Authentication</a>
+      <a class="mdl-navigation__link" href="">Cluster Managers</a>
+      <a class="mdl-navigation__link" href="">Container</a>
+      <a class="mdl-navigation__link" href="">Middlewares</a>
+      <a class="mdl-navigation__link" href="">Monitoring system</a>
+      <a class="mdl-navigation__link" href="">Quick start</a>
+      <a class="mdl-navigation__link" href="">Tools</a>
+      <a class="mdl-navigation__link" href="">Versioning</a>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link">Resources</span>
+      <a class="mdl-navigation__link" href="">resources</a>
+      <a class="mdl-navigation__link" href="">Official blog</a>
+      <a class="mdl-navigation__link" href="">Android on Google+</a>
+      <a class="mdl-navigation__link" href="">Android on Twitter</a>
+
+      <div class="android-drawer-separator"></div>
+      <span class="mdl-navigation__link" href="">Versions: 1.0.0-alpha.0</span>
     </nav>
   </div>
   <main class="mdl-layout__content">
     <div class="page-content">
+      {% if page.landing == true %}{% include global-header.html %}{% endif %}
+
+<h1>{{ site.name }}</h1>
+      <h1>{{ page.title }}</h1>
+{{ content }}
 
 
-      <div class="android-be-together-section mdl-typography--text-center">
-          <div class="logo-font android-slogan">be kind. and work hard.</div>
-          <div class="logo-font android-sub-slogan">welcome to the team... be yourself. do your best. and learn together.</div>
-
-          <div class="logo-font android-create-character">
-            <a href=""><img src="images/andy.png"> create your android character</a>
-          </div>
-
-          <a href="#screens">
-            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
-              <i class="material-icons">expand_more</i>
-            <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button>
-          </a>
-        </div>
-
-        <!-- Accent-colored raised button with ripple -->
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-  Button
-</button>
-<!-- Colored FAB button -->
-<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-  <i class="material-icons">add</i>
-</button>
 
   <header>
     {% if page.landing == true %}{% include global-header.html %}{% endif %} {% if page.landing != true %}{% include header.html %}{% endif %}
