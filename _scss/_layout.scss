@@ -14,6 +14,7 @@
 .col-content {
   flex: 1;
   transition: all 0.5s ease;
+  background-color: #fff;
 }
 
 .first-content {
@@ -44,11 +45,11 @@
 .main_footer {
   background: #fff;
   position: relative;
+  border-top: 1px solid #E0E4E7;
 }
 
 .bottom-footer {
   text-align: center;
   clear: both;
   padding: 15px 0;
-  border-top: 1px solid #E0E4E7;
 }
