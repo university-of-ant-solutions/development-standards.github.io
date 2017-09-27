@@ -15,18 +15,18 @@
 
 <!-- Always shows a header, even in smaller screens. -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header has-drawer is-upgraded">
-  <header class="mdl-layout__header">
+  <header class="nav-primary mdl-layout__header mdl-layout__header--waterfall">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Development Standards</span>
+      <span class="nav-title mdl-layout-title">Development Standards</span>
       <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation. We hide it in small screens. -->
-      <nav class="mdl-navigation mdl-layout--large-screen-only">
+      <nav class="nav-container mdl-navigation mdl-layout--large-screen-only">
         <a class="mdl-navigation__link" href="/">Home</a>
         <a class="mdl-navigation__link" href="">Source Code Management</a>
       </nav>
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+      <div class="nav-search mdl-textfield mdl-js-textfield mdl-textfield--expandable">
         <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
           <i class="material-icons">search</i>
         </label>
@@ -48,7 +48,7 @@
   <div class="android-drawer mdl-layout__drawer">
     <span class="mdl-layout-title">
       <h3 class="android-logo-image">
-        contents
+        Content
       </h3>
     </span>
     <nav class="mdl-navigation">
@@ -134,17 +134,22 @@
   <main class="mdl-layout__content">
     <div class="page-content">
       {% if page.landing == true %}{% include global-header.html %}{% endif %}
-
-<h1>{{ site.name }}</h1>
-      <h1>{{ page.title }}</h1>
-{{ content }}
-
-
-
-  <header>
-    {% if page.landing == true %}{% include global-header.html %}{% endif %} {% if page.landing != true %}{% include header.html %}{% endif %}
-  </header>
-
+      <div class="col-body mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--2-col-phonedp">
+          </div>
+          <div class="col-content content mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--8-col-phonedp">
+            {{ content }}
+          </div>
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--2-col-phonedp">
+          </div>
+      </div>
+      <footer class="main_footer">
+        <div class="container">
+          <div class="bottom-footer">
+            Copy right @ 2017 Particle4dev. All rights reversed.
+          </div>
+        </div>
+      </footer>
     </div>
   </main>
 </div>

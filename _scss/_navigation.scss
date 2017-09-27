@@ -1,0 +1,36 @@
+/*
+*
+* Primary navigation - top header **********************************************************
+*
+*/
+
+.nav-primary {
+  overflow: visible;
+  background-color: white;
+}
+
+.nav-primary .material-icons {
+  color: #767777 !important;
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(103,58,183);
+}
+
+.nav-container .mdl-navigation__link {
+  display: inline-block;
+  height: 60px;
+  line-height: 68px;
+  background-color: transparent !important;
+  border-bottom: 4px solid transparent;
+  color: #757575;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.nav-search {
+  margin-left: 16px;
+  margin-right: 16px;
+}
