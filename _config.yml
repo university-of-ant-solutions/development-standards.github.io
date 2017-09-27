@@ -35,6 +35,10 @@ defaults:
       toc_max: 3
       tree: true
   - scope:
+      path: "product-development-process"
+    values:
+      assignee: "particle4dev"
+  - scope:
       path: "architectures"
     values:
       assignee: "particle4dev"
@@ -42,10 +46,6 @@ defaults:
       path: "database"
     values:
       assignee: "particle4dev"
-  - scope:
-      path: "datacenter"
-    values:
-      assignee: "joaofnfernandes"
   - scope:
       path: "datacenter/ucp"
     values:
