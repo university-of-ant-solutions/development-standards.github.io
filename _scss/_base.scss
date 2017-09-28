@@ -79,14 +79,25 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #254356;
   clear: both;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   line-height: 48px;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 32px;
   line-height: 38px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
 }
