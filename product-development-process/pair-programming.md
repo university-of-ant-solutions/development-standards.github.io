@@ -48,43 +48,36 @@ Even pairing with a developer with no specific experience in the project can be 
       >What is the value of the variable?
     - Compare the content of that question to the following question:
       >“What is the value of the variable, obj at Line 232 of the file, MyFile.java?”
+    - The first question needs a whole lot more follow up to attain clarity. The second question, not so much, if any at all.
+    - Thus, when talking about code, unless you are pointing directly at a monitor that you and your programming partner can see, always reference your focus of attention, at least by line number. Figuring out the place where you or your partner is giving attention takes time, time that could be spent solving a problem.
+    - If you don’t have line numbers turned on in your IDE, do so. Knowing what to look at will save oodles of time in your labors.
 
-The first question needs a whole lot more follow up to attain clarity. The second question, not so much, if any at all.
+3. **When disagreeing, talk in terms of benefit**
+    - I have ideas. You have ideas. All programmers have ideas. That’s how we’re built. Sometimes pair programming ideas are in sync. Sometimes they’re not. Disagreement is good. That’s how better ideas are synthesized. However, disagreements that go on forever, with no resolution in sight, eat time.
 
-Thus, when talking about code, unless you are pointing directly at a monitor that you and your programming partner can see, always reference your focus of attention, at least by line number. Figuring out the place where you or your partner is giving attention takes time, time that could be spent solving a problem.
+    - One trick I’ve found that when I am in disagreement with a programming partner is to always talk in terms of benefit. For example, you can say, “I think that the benefit of using my idea is [STATE THE BENEFIT HERE]”. An idea without a benefit ain’t. It’s an opinion. And opinions are like noses. Just about everybody has one.
 
-If you don’t have line numbers turned on in your IDE, do so. Knowing what to look at will save oodles of time in your labors.
+    - Coming to resolution on an idea is a lot easier when comparing benefits. Jousting away in the Lists of Opinion goes on until the other guy falls off the horse. Pair programming is not about trial by combat. Articulating benefit works!
 
-3. When disagreeing, talk in terms of benefit
+4. **When feeling ill at ease, say so**
+    - I am always aware about how much my feelings influence my thinking. When I am feeling assaulted, put on the defensive or frustrated, my immediate concern is to assuage the feeling, not to have better ideas. Trying to make bad feelings go away eats time. And, when in a pair programming situation, making bad feeling go away without making the other party aware of my ill ease is counterproductive.
 
-I have ideas. You have ideas. All programmers have ideas. That’s how we’re built. Sometimes pair programming ideas are in sync. Sometimes they’re not. Disagreement is good. That’s how better ideas are synthesized. However, disagreements that go on forever, with no resolution in sight, eat time.
+    - Look we’re all human. Sometimes we get thrown by a snide remark, a piece of sarcasm or an unintended insult made by our programming partner. It happens. Most time the person casting the remark has no intention of harm. He or she is unaware. So there is a benefit to be had.
 
-One trick I’ve found that when I am in disagreement with a programming partner is to always talk in terms of benefit. For example, you can say, “I think that the benefit of using my idea is [STATE THE BENEFIT HERE]”. An idea without a benefit ain’t. It’s an opinion. And opinions are like noses. Just about everybody has one.
+    - When you are ill at ease, say so. It’s better to let the information flow for a few minutes and make things right than to harbor a defensive grudge that goes on through the afternoon and into the night. You can say something as simple as, “Dude, I know you probably didn’t mean it, but calling my idea lame really hurt. Maybe moving forward you can just say that my idea has some shortcomings we need to address.”
 
-Coming to resolution on an idea is a lot easier when comparing benefits. Jousting away in the Lists of Opinion goes on until the other guy falls off the horse. Pair programming is not about trial by combat. Articulating benefit works!
+    - Most people are intrinsically kind. Those that aren’t are not good candidates for pair programming. Better to make known your ill feelings as soon as you experience them. If the person can adjust, then move forward. If not, ask your manager to pair program with someone else.
 
-4. When feeling ill at ease, say so
+5. **Bestow as many compliments as possible**
+    - Pair programming is a very special type of intimacy between two human beings. Two people are working together at a very detailed level to solve complex problems.Your pair partner is sharing a very special part of him or herself: his or her thinking. For better or worse, it’s a relationship between two people, maybe not the type you have with a sibling or friend, but it’s not exactly as transient as sharing a seat with another person on the subway. You really do get to know a person by working with them.
 
-I am always aware about how much my feelings influence my thinking. When I am feeling assaulted, put on the defensive or frustrated, my immediate concern is to assuage the feeling, not to have better ideas. Trying to make bad feelings go away eats time. And, when in a pair programming situation, making bad feeling go away without making the other party aware of my ill ease is counterproductive.
+    - One of the great benefits that I’ve found when having a good pair programming experience is the sense of empowerment I feel when we’re moving ahead together efficiently. Either I feel as if I am helping out, or I feel as if I am being helped out. It’s win-win.
 
-Look we’re all human. Sometimes we get thrown by a snide remark, a piece of sarcasm or an unintended insult made by our programming partner. It happens. Most time the person casting the remark has no intention of harm. He or she is unaware. So there is a benefit to be had.
+    - One of the ways I’ve discovered to increase that sense of empowerment between myself and my programming partner is to always give a compliment when an opportunity to compliment presents itself. It is my firm belief that the human being has yet to be born that does not want to be appreciated for the work he or she does or the thinking he or she has. People want to feel good about they work they do. Pair programming is no exception. One of the fastest ways I have found to get a good feeling going is to offer a sincere compliment whenever I can. It doesn’t have to be a drama. Sometimes a simple, “good idea” will suffice.
 
-When you are ill at ease, say so. It’s better to let the information flow for a few minutes and make things right than to harbor a defensive grudge that goes on through the afternoon and into the night. You can say something as simple as, “Dude, I know you probably didn’t mean it, but calling my idea lame really hurt. Maybe moving forward you can just say that my idea has some shortcomings we need to address.”
-
-Most people are intrinsically kind. Those that aren’t are not good candidates for pair programming. Better to make known your ill feelings as soon as you experience them. If the person can adjust, then move forward. If not, ask your manager to pair program with someone else.
-
-5. Bestow as many compliments as possible
-
-Pair programming is a very special type of intimacy between two human beings. Two people are working together at a very detailed level to solve complex problems.Your pair partner is sharing a very special part of him or herself: his or her thinking. For better or worse, it’s a relationship between two people, maybe not the type you have with a sibling or friend, but it’s not exactly as transient as sharing a seat with another person on the subway. You really do get to know a person by working with them.
-
-One of the great benefits that I’ve found when having a good pair programming experience is the sense of empowerment I feel when we’re moving ahead together efficiently. Either I feel as if I am helping out, or I feel as if I am being helped out. It’s win-win.
-
-One of the ways I’ve discovered to increase that sense of empowerment between myself and my programming partner is to always give a compliment when an opportunity to compliment presents itself. It is my firm belief that the human being has yet to be born that does not want to be appreciated for the work he or she does or the thinking he or she has. People want to feel good about they work they do. Pair programming is no exception. One of the fastest ways I have found to get a good feeling going is to offer a sincere compliment whenever I can. It doesn’t have to be a drama. Sometimes a simple, “good idea” will suffice.
-
-When my pair partner feels good, I tend to feel good. And for those of us that have been on the terrain for a while have come to understand, happy cows make better milk. The more compliments you make, the more efficiently the pair will move.
+    - When my pair partner feels good, I tend to feel good. And for those of us that have been on the terrain for a while have come to understand, happy cows make better milk. The more compliments you make, the more efficiently the pair will move.
 
 ## Reference
-
 - https://www.versionone.com/agile-101/agile-software-programming-best-practices/pair-programming/
 
 - https://blog.logentries.com/2017/01/5-rules-of-pair-programming-etiquette/
