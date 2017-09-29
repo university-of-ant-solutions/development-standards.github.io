@@ -1,8 +1,14 @@
-### Proposed changes
+**General Checklist:**
 
-<!--Tell us what you did and why-->
+- [ ] Tests added for this feature/bug
+- [ ] All tests are passed
+- [ ] No lint error
+- Review
+  - [ ] Has been reviewed by UX
+  - [ ] Has been reviewed by Frontend
+  - [ ] Has been reviewed by Backend
+  - [ ] Has been reviewed by Database
 
-### Related issues (optional)
-
-<!--Refer to related PRs or issues: #1234, or 'Fixes #1234' or 'Closes #1234'.
-    Or link to full URLs to issues or pull requests in other Github projects -->
+- [ ] Conform by the [merge request performance guides]
+- [ ] Conform by the [style guides]
+- [ ] [Squashed related commits together](https://git-scm.com/book/en/Git-Tools-Rewriting-History#Squashing-Commits)
