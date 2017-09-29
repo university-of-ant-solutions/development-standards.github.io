@@ -68,6 +68,12 @@ Adding a label needs design so your designers can view the story and get context
 
 Adding a label needs PM so you can view the story and remember context to unblock the story
 
+- accept for merge (#5CB85C)
+Merge requests that are ready for merge.
+
+- reject for merge (#CC0033)
+Merge requests that are reject for merge. The reason are in comment section.
+
 ### Protected branches
 
 Protected branches ensure that collaborators on your repository cannot make irrevocable changes to branches. These branches can also be protected by requiring pull requests to have at least one approved review before they can be merged.
