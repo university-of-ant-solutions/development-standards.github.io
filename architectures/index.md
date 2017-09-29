@@ -1,6 +1,6 @@
 ---
 description: Architectures
-keywords: Architectures
+keywords: architectures
 title: About Architectures
 ---
 
