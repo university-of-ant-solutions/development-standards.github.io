@@ -15,4 +15,12 @@ Title: [Persona name] should (not) be able to [action]
 **Possible fixes:**
 (If you can, link to the line of code that might be responsible for the problem)
 
+**Related issues**
+
+#
+
+**Related Merge Requests**
+
+#
+
 /label ~bug

@@ -12,3 +12,7 @@
 - [ ] Conform by the [merge request performance guides]
 - [ ] Conform by the [style guides]
 - [ ] [Squashed related commits together](https://git-scm.com/book/en/Git-Tools-Rewriting-History#Squashing-Commits)
+
+**What are the relevant issue numbers?**
+
+Closes #
