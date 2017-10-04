@@ -1,21 +1,26 @@
-### Problem description
+Title: [Persona name] should (not) be able to [action]
 
-<!--Briefly describe the problem that you found.
-    Only DOCUMENTATION issues should be filed here. -->
+**Currently:**
+[What happens now in the regression]
 
-### Problem location
+**Expected:**
+[What the correct behavior should be]
 
-<!-- Help us find the problem quickly by choosing one of these. -->
+**STEPS TO REPRODUCE:**
+[If needed, add steps to reproduce]
 
-- I saw a problem on the following URL: <URL>
+**REFERENCE:**
+[Link or attach screenshot(s) to story if relevant]
 
-- I couldn't find the information I wanted. I expected to find it near the following URL: <URL>
+**Possible fixes:**
+(If you can, link to the line of code that might be responsible for the problem)
 
-- Other: <DETAILS>
+**Related issues**
 
-### Suggestions for a fix
+#
 
-<!--If you have specific ideas about how we can fix this, let us know. -->
+**Related Merge Requests**
 
+#
 
-<!-- To improve this template, edit the .github/ISSUE_TEMPLATE.md file -->
+/label ~bug

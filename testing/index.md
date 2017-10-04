@@ -1,4 +1,14 @@
+---
+description: Testing
+keywords: testing
+title: About Testing
+---
+
+## Terminology:
+
 ### What is Test Coverage ?
+
+![Pair programming](/testing/images/value-and-effort-of-test-coverage.png){: width="60%"}
 
 Test coverage is a useful tool for finding untested parts of a codebase. Test coverage is of little use as a numeric statement of how good your tests are.
 
@@ -11,19 +21,6 @@ I would say you are doing enough testing if the following is true:
 
 One sign you are testing too much is if your tests are slowing you down. If it seems like a simple change to code causes excessively long changes to tests, that's a sign that there's a problem with the tests.
 
-https://martinfowler.com/bliki/TestCoverage.html
-http://www.softwaretestingclass.com/test-coverage-in-software-testing/
+- [https://martinfowler.com/bliki/TestCoverage.html](https://martinfowler.com/bliki/TestCoverage.html)
 
-### Reporting
-
-### What is TDD ?
-
-### Test Impact Analysis
-
-- [rise test impact analysis](https://martinfowler.com/articles/rise-test-impact-analysis.html)
-
-- [bazel](https://bazel.build/)
-
-- [buckbuild](https://buckbuild.com/about/showcase.html)
-
-- [pantsbuild](http://www.pantsbuild.org/python_readme.html)
+- [http://www.softwaretestingclass.com/test-coverage-in-software-testing/](http://www.softwaretestingclass.com/test-coverage-in-software-testing/)

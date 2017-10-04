@@ -32,15 +32,47 @@ Before you start contribute to any project, your local git should be configured 
 
 ### Labels on git
 
+### status of issues
+
 - wip (work in progress) (#428BCA)
+
+Issues that are actively being worked on by a developer
 
 - impl (implementations) (#8E44AD)
 
+Implement application codes based on the skeletons to pass all the tests
+
 - spec (specification) (#69D100)
+
+Implement unit tests based on the skeletons
 
 - review (review) (#5843AD)
 
--
+Issues that are undergoing code review by the development team and/or undergoing design review by the UX team
+
+### type of issues
+
+- bug (bug) (#FF0000)
+Bugs represent unintended behavior that can be related to story.
+
+- story (story) (#F0AD4E)
+Story provide verifiable business value to the team’s customer.
+
+### other labels
+
+- needs design (#AD4363)
+
+Adding a label needs design so your designers can view the story and get context to unblock the story
+
+- needs pm (#44AD8E)
+
+Adding a label needs PM so you can view the story and remember context to unblock the story
+
+- accept for merge (#5CB85C)
+Merge requests that are ready for merge.
+
+- reject for merge (#CC0033)
+Merge requests that are reject for merge. The reason are in comment section.
 
 ### Protected branches
 

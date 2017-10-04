@@ -1,6 +1,6 @@
 ---
 description: Scrum
-keywords: scrum
+keywords: scrum, product, development, process
 title: Scrum
 ---
 
@@ -27,4 +27,4 @@ Scrum is:
 
 ## Where to go next
 
-* [scrum-training](https://github.com/university-of-ant-solutions/scrum-training)
+* [Three levels of scrum](/product-development-process/scrum/three-levels-of-scrum)

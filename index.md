@@ -13,7 +13,7 @@ notags: true
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida nisi sed arcu molestie euismod. Mauris sed sagittis purus. Vivamus velit purus, viverra eu felis quis, auctor cursus erat. Nam at augue at nulla laoreet auctor id et nulla. Sed interdum iaculis nulla, sit amet tincidunt est tempus vel. Sed maximus lobortis ultrices. Curabitur eu dictum justo. Cras suscipit, risus sit amet sollicitudin congue, felis nisl elementum quam, ac lacinia quam sem sit amet nisl. Vestibulum sodales urna vel libero molestie vulputate. Aenean et mattis nulla, at sollicitudin lorem. Phasellus ultricies accumsan dui, et elementum lorem euismod eget.
 
-[Get started](http://localhost:4000/){:.mdl-button .mdl-js-button .mdl-button--raised .mdl-js-ripple-effect .mdl-button--colored}
+[Get started](){:.mdl-button .mdl-js-button .mdl-button--raised .mdl-js-ripple-effect .mdl-button--colored}
 ### Featured Articles
 <div class="mdl-grid">
 <div markdown="1" class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
