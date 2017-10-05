@@ -1,6 +1,6 @@
 ---
 description: Home page for development standards's documentation
-keywords: Docker, documentation, manual, guide, reference, api, samples
+keywords: documentation, manual, guide, reference, api, samples
 landing: true
 title: Development Standards Documentation
 notoc: true
