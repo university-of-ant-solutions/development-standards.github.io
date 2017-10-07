@@ -8,6 +8,9 @@ title: About Database
 
 * [Mongodb](https://www.mongodb.com) [document database]
 * [Redis](https://redis.io) [key-value]
+
+  - http://redislabs.lookbookhq.com/c/wp-redis-labs-popula?x=DACO2h&mkt_tok=eyJpIjoiTXpjek9EQmtPRFUxTTJZMSIsInQiOiJZMEoyRms0TGpBanp6ZjlhYjRNbmU2eUxFVytvb3Z2NVpWR0dKYlFqNjhaTDJoZmd0SEplS2c1dHB1MEVTbk01SmRGZ2pIS0lCRHVTR1V3RElrcWo2NHR5WTJKcGY3VlRYbVVTcnd0OXliNWVMalVWaE1hN2pWWDhVeENZMHFCZSJ9&utm_campaign=why+your+mongodb+needs+redis&utm_medium=email+campaign+10-05-17&utm_source=white+paper
+
 * [Logstash Kibana Elasticsearch](https://www.elastic.co) [full text search]
 * [Postgresql](https://www.postgresql.org) [relationship database]
 * [InfluxDB](https://influxdata.com/) [time series]
