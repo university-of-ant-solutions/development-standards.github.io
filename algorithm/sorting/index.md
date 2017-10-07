@@ -18,7 +18,7 @@ In computer science, a sorting algorithm is an algorithm that puts elements of a
 
 - [Bubble Sort](/algorithm/sorting/bubble-sort)
 
-- [Insertion Sort]()
+- [Insertion Sort](/algorithm/sorting/insertion-sort)
 
 - [Merge Sort]()
 

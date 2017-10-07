@@ -22,7 +22,7 @@ begin BubbleSort(list)
 end BubbleSort
 ```
 
-### Pseudocode
+## Pseudocode
 We observe in algorithm that Bubble Sort compares each pair of array element unless the whole array is completely sorted in an ascending order. This may cause a few complexity issues like what if the array needs no more swapping as all the elements are already ascending.
 
 To ease-out the issue, we use one flag variable swapped which will help us see if any swap has happened or not. If no swap has occurred, i.e. the array requires no more processing to be sorted, it will come out of the loop.
