@@ -1,9 +1,9 @@
 ---
 description: Images
-keywords: Images
-title: About Images
+keywords: images, web, application
+title: Images
 ---
 
-## Images:
+## Images
 
 - [https://github.com/GoogleChrome/essential-image-optimization](https://github.com/GoogleChrome/essential-image-optimization)
