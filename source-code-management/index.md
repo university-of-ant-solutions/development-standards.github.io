@@ -20,4 +20,6 @@ title: Source Code Management
 
 * [Git Configuration](/source-code-management/git-configuration)
 
+* [README Template](/source-code-management/readme-template)
+
 * [What is git](https://www.atlassian.com/git/tutorials/what-is-git)
