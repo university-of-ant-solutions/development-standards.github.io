@@ -1,7 +1,7 @@
 ---
 description: Commit Message Guidelines
-keywords: commit message, guidelines
-title: About commit message guidelines
+keywords: commit, message, guidelines, source, code, management, software, tool
+title: Commit Message Guidelines
 ---
 
 ##### Commit message guidelines
