@@ -16,6 +16,12 @@ title: Algorithm
 
 * [Backtracking Algorithm](/algorithm/backtracking)
 
+* [Design Patterns](/algorithm/design-patterns)
+
 ## Resources
 
 * [http://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting](http://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting)
+
+* [https://codingsec.net/2016/03/7-algorithms-data-structures-every-programmer/](https://codingsec.net/2016/03/7-algorithms-data-structures-every-programmer/)
+
+* [https://codingsec.net/2017/05/10-best-use-cases-examples-algorithms-real-world/](https://codingsec.net/2017/05/10-best-use-cases-examples-algorithms-real-world/)
