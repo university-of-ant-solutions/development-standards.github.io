@@ -6,7 +6,7 @@ title: Pair Programming
 
 # Pair programming
 
-![Pair programming](/product-development-process/images/pair-programming.jpg){: width="60%"}
+![Pair programming](/product-development-process/images/pair-programming.jpg)
 
 Pair programming is when two programmers working at single workstation. The two programmers must swap between two roles frequently:
 
@@ -14,6 +14,8 @@ Pair programming is when two programmers working at single workstation. The two 
 - The other “navigates” reviews each line of code as it is typed in, suggesting ideas and catching errors.
 
 The roles must be swapped on a timer, for example 5 minutes or 3 minutes, which you can set with a phone alarm or an application on the computer.
+
+![Converting HTML to the DOM](/product-development-process/images/converting-html-to-the-dom.png)
 
 ## Why do you want to pair programming ?
 Advantages
