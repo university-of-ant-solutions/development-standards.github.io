@@ -15,8 +15,6 @@ Pair programming is when two programmers working at single workstation. The two 
 
 The roles must be swapped on a timer, for example 5 minutes or 3 minutes, which you can set with a phone alarm or an application on the computer.
 
-![Converting HTML to the DOM](/product-development-process/images/converting-html-to-the-dom.png)
-
 ## Why do you want to pair programming ?
 Advantages
 ## When do you want to pair programming ?
