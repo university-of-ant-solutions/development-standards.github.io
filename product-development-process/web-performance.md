@@ -47,11 +47,11 @@ First, the browser combines the DOM and CSSOM into a "render tree":
 ![Render Tree Construct](/product-development-process/images/render-tree-construction.png){:.img-resize}
 
 To construct the render tree, the browser roughly does the following:
-  1. Starting at the root of the DOM tree, traverse each visible node.
+  - Starting at the root of the DOM tree, traverse each visible node.
     - Some nodes are not visible (for example, script tags, meta tags, and so on), and are omitted since they are not reflected in the rendered output.
     - Some nodes are hidden via CSS and are also omitted from the render tree; for example, the span node---in the example above---is missing from the render tree because we have an explicit rule that sets the "display: none" property on it.
-  2. For each visible node, find the appropriate matching CSSOM rules and apply them.
-  3. Emit visible nodes with content and their computed styles.
+  - For each visible node, find the appropriate matching CSSOM rules and apply them.
+  - Emit visible nodes with content and their computed styles.
 
 With the render tree in place, we can proceed to the "layout" stage.
 
@@ -78,4 +78,29 @@ Final, The general sequence of steps to optimize the critical rendering path is:
   2. Minimize number of critical resources: eliminate them, defer their download, mark them as async, and so on.
   3. Optimize the number of critical bytes to reduce the download time (number of roundtrips).
   4. Optimize the order in which the remaining critical resources are loaded: download all critical assets as early as possible to shorten the critical path length.
+
+## Build CSS on PWA
+
+  - Preloading content with rel="loading"
+    - The preload value of the `<link>` element's rel attribute allows you to write declarative fetch requests in your HTML `<head>`.
+    - Specifying resources that your pages will need very soon after loading, which you therefore want to start preloading early in the lifecycle of a page load, before the browser's main rendering machinery kicks in.
+    - This ensures that they are made available earlier and are less likely to block the page's first render, leading to performance improvements.
+    - Example:
+        ```
+        <head>
+          <meta charset="utf-8">
+          <title>CSS preload example</title>
+          <link rel="preload" href="style.css" as="style">
+          <link rel="stylesheet" href="style.css">
+        </head>
+
+        <body>
+          <h1>bouncing balls</h1>
+          <canvas></canvas>
+
+          <script src="main.js"></script>
+        </body>
+        ```
+  - The css attributes used to create the layout for the app are placed in a separate css file. And the preload is applied so that it can be downloaded as soon as possible in the first render. Example, css for `<html>`, `<body>`, `<header>`, `<a>`, `<nav>`, `<brand>`, `<loader>`.....
+  - The css attributes used to build the content for each page will be placed inline that page. Will be added to `<header>` when the page is loaded.
 
