@@ -101,8 +101,8 @@ Final, The general sequence of steps to optimize the critical rendering path is:
           <script src="main.js"></script>
         </body>
         ```
-  - The css attributes used to create the layout for the app are placed in a separate css file. And the preload is applied so that it can be downloaded as soon as possible in the first render. Example, css for `<html>`, `<body>`, `<header>`, `<a>`, `<nav>`, `<brand>`, `<loader>`.....
-  - The css attributes used to build the content for each page will be placed inline that page. Will be added to `<header>` when the page is loaded.
+  - The css attributes used to create the layout for the app are placed in a separate css file and the preload is applied so that it can be downloaded as soon as possible in the first render. Example, css for `<html>`, `<body>`, `<header>`, `<a>`, `<nav>`, `<brand>`, `<loader>`.....
+  - The css attributes used to build the content for each page will be placed inline in the page and it will be added to `<header>` when the page is loaded.
 
 ## Reference
 
@@ -114,4 +114,3 @@ Final, The general sequence of steps to optimize the critical rendering path is:
 - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript
 - https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content
-
