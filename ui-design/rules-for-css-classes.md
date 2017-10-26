@@ -19,7 +19,7 @@ title: About Rules For Css Classes
 
 ## What CSS naming conventions does MDL use
 
-##Note
+## Note
 - Chưa tìm hiểu đầy đủ về Naming Css. Cần tìm hiểu thêm với 4 link ở bên dưới.
 - Viết lại bản report cho Naming Css.
 
