@@ -4,6 +4,10 @@ keywords: agile, product, development, process
 title: Agile
 ---
 
-**Agile**
+## Definition of Agile
 
-### [Principles behind the Agile manifesto](/product-development-process/agile/principles-behind-the-agile-manifesto)
+/ˈajəl/ adjective - able to move quickly and easily.
+
+## Resources
+
+- [Principles behind the Agile manifesto](/product-development-process/agile/principles-behind-the-agile-manifesto)

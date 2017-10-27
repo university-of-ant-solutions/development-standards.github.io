@@ -18,6 +18,10 @@ title: Algorithm
 
 * [Design Patterns](/algorithm/design-patterns)
 
+* [Data Structures](/algorithm/data-structures)
+
+* [Algorithm Complexity](/algorithm/algorithm-complexity)
+
 ## Resources
 
 * [http://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting](http://www.geeksforgeeks.org/fundamentals-of-algorithms/#SearchingandSorting)
