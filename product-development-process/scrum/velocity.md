@@ -12,6 +12,20 @@ The velocity of a team is a measure of how much work that the team can handle wi
 
 ## The velocity calculation formula
 
+```
+velocity_per_week(iteration_1, ..., iteration_N) =
+    SUM(iteration_i.points / iteration.team_strength) /
+    SUM(iteration.length_in_weeks)
+```
+
+For example, if your iterations are two weeks long by default, Tracker will multiply the per-week velocity by 2.
+
+> Ví dụ, nếu như vòng lặp của bạn độ dài mặc định là 2 tuần, velocity sẽ được tính là tổng số points 2 tuần / team_strength / 2 (số tuần)
+
+## Reflecting accurate capability with Team Strength
+Iteration Team Strength allows you to tell Tracker about variations in your team from iteration to iteration. This helps you account for things like holidays, sickness, or other temporary team fluctuations.
+
+For example, if half of your team leaves for a conference during one iteration, you might set the team strength of that iteration to 50%. Likewise, if your team works all weekend to prepare for launching your product, you would set the team strength to 140% (since they worked seven days instead of a normal five-day work week).
 
 ## Resources
 
