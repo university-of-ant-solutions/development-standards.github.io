@@ -47,6 +47,10 @@ defaults:
     values:
       assignee: "particle4dev"
   - scope:
+      path: "blockchains"
+    values:
+      assignee: "particle4dev"
+  - scope:
       path: "datacenter/ucp"
     values:
       assignee: "jimgalasyn"
